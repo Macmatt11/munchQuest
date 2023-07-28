@@ -1,0 +1,716 @@
+@media(min-width:320px){
+/* public css */
+.publicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 4%;
+}
+
+.postPublic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 80vw;
+    height: 63vh;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    background-color: rgba(46, 45, 42, 0.928);
+    align-self: center;
+
+}
+
+.publicFeed{
+    margin-top: 25%;
+    text-align: center;
+    background-color: #FFBA49;
+    width: 72vw;
+    align-self: center;
+    border-radius: 5px;
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/99/74/pizza-pattern-vector-18669974.jpg');
+}
+
+.postPublic > img { 
+    border-radius: 5px;
+    height: 25vh;
+    width: 55vw;
+    margin-top: 3%;
+    align-self: center;
+}
+
+.postTitle{
+    font-size: 1.6rem;
+    color: #FFBA49;
+    align-self: center;
+}
+
+.postPublic > p {
+    color: #FFBA49;
+    font-size: 1.1rem;
+    max-height: 60px;
+    overflow: auto;
+}
+
+.postPublic > .iconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.likeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.dislikeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.comment{
+font-size: 1.4rem;
+color: #FFBA49;
+}
+
+.commentForm{
+    margin-bottom: -5%;
+    margin-top: 0;
+    position: relative;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+.commentForm > button{
+    width: 70px;
+    margin-bottom: 0;
+    background-color: #FFBA49;
+    padding: 3px;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+}
+.commentForm > button:hover{
+    background-color:#6096BA; 
+}
+
+.postPublic > .comment-expandBox{
+    display: flex;
+    gap: 3px;
+    margin-top: 24px;
+    align-self: center;
+}
+.commentSection{
+    color: #FFBA49;
+}
+
+.expandPublic{
+    color: #FFBA49;
+    font-size: 1.4rem;
+}
+
+}
+@media(min-width:410px){
+    .expandPublic{
+        color: #FFBA49;
+        position: relative;
+        left: 23%;
+        bottom: 12%;
+        font-size: 1.4rem;
+    }
+}
+@media(min-width:500px){
+    .expandPublic{
+        color: #FFBA49;
+        position: relative;
+        left: 18%;
+        bottom: 12%;
+        font-size: 1.4rem;
+    }
+}
+@media(min-width:610px){
+    /* public css */
+.publicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 4%;
+}
+
+.postPublic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 80vw;
+    height: 64vh;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    background-color: rgba(46, 45, 42, 0.928);
+    align-self: center;
+
+}
+
+.publicFeed{
+    margin-top: 18%;
+    text-align: center;
+    background-color: #FFBA49;
+    width: 72vw;
+    align-self: center;
+    border-radius: 5px;
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/99/74/pizza-pattern-vector-18669974.jpg');
+}
+
+.postPublic > img { 
+    border-radius: 5px;
+    position: relative;
+    height: 26vh;
+    width: 39vw;
+    margin-top: 3%;
+}
+
+.postTitle{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFBA49;
+    width: 60vw;
+    border-radius: 5px;
+}
+
+.postPublic > p {
+    color: #FFBA49;
+    font-size: 1.1rem;
+    max-height: 60px;
+    overflow: auto;
+}
+
+.postPublic > .iconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.likeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.dislikeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.comment{
+font-size: 1.4rem;
+color: #FFBA49;
+}
+
+.commentForm{
+    margin-bottom: -5%;
+    margin-top: 0;
+    position: relative;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.commentForm > button{
+    width: 70px;
+    margin-bottom: 0;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+}
+.commentForm > button:hover{
+    background-color:#6096BA; 
+}
+.postPublic > .comment-expandBox{
+    display: flex;
+    gap: 3px;
+    margin-top: 24px;
+    align-self: center;
+}
+.commentSection{
+    color: #FFBA49;
+}
+
+.expandPublic{
+    color: #FFBA49;
+    font-size: 1.4rem;
+}
+}
+@media(min-width:824px){
+     /* public css */
+.publicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 4%;
+}
+
+.postPublic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 55vw;
+    height: 69vh;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    background-color: rgba(46, 45, 42, 0.928);
+    align-self: center;
+
+}
+
+.publicFeed{
+    margin-top: 10%;
+    text-align: center;
+    background-color: #FFBA49;
+    width: 49vw;
+    align-self: center;
+    border-radius: 5px;
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/99/74/pizza-pattern-vector-18669974.jpg');
+}
+
+.postPublic > img { 
+    border-radius: 5px;
+    position: relative;
+    height: 30vh;
+    width: 25vw;
+    margin-top: 3%;
+}
+
+.postTitle{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFBA49;
+    width: 25vw;
+    border-radius: 5px;
+}
+
+.postPublic > p {
+    color: #FFBA49;
+    font-size: 1.1rem;
+    max-height: 60px;
+    overflow: auto;
+}
+
+.postPublic > .iconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.likeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.dislikeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.comment{
+font-size: 1.4rem;
+color: #FFBA49;
+}
+
+.commentForm{
+    margin-bottom: -5%;
+    margin-top: 0;
+    position: relative;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.commentForm > button{
+    width: 70px;
+    margin-bottom: 0;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+}
+.commentForm > button:hover{
+    background-color:#6096BA; 
+}
+.postPublic > .comment-expandBox{
+    display: flex;
+    gap: 3px;
+    margin-top: 24px;
+    align-self: center;
+}
+.commentSection{
+    color: #FFBA49;
+}
+
+.expandPublic{
+    color: #FFBA49;
+    font-size: 1.4rem;
+}
+}
+@media(min-width:1155px){
+     /* public css */
+.publicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 4%;
+}
+
+.postPublic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 55vw;
+    height: 69vh;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    background-color: rgba(46, 45, 42, 0.928);
+    align-self: center;
+
+}
+
+.publicFeed{
+    margin-top: 10%;
+    text-align: center;
+    background-color: #FFBA49;
+    width: 48vw;
+    border-radius: 5px;
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/99/74/pizza-pattern-vector-18669974.jpg');
+    align-self: center;
+}
+
+.postPublic > img { 
+    border-radius: 5px;
+    position: relative;
+    height: 30vh;
+    width: 22vw;
+    margin-top: 3%;
+}
+
+.postTitle{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFBA49;
+    width: 25vw;
+    border-radius: 5px;
+}
+
+.postPublic > p {
+    color: #FFBA49;
+    font-size: 1.1rem;
+    max-height: 60px;
+    overflow: auto;
+}
+
+.postPublic > .iconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.likeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.dislikeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.comment{
+font-size: 1.4rem;
+color: #FFBA49;
+}
+
+.commentForm{
+    margin-bottom: -5%;
+    margin-top: 0;
+    position: relative;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.commentForm > button{
+    width: 70px;
+    margin-bottom: 0;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+}
+.commentForm > button:hover{
+    background-color:#6096BA; 
+}
+.postPublic > .comment-expandBox{
+    display: flex;
+    gap: 3px;
+    margin-top: 24px;
+    align-self: center;
+}
+.commentSection{
+    color: #FFBA49;
+}
+
+.expandPublic{
+    color: #FFBA49;
+    font-size: 1.4rem;
+}
+}
+@media(min-width:1278px){
+         /* public css */
+.publicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 4%;
+}
+
+.postPublic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 55vw;
+    height: 69vh;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    background-color: rgba(46, 45, 42, 0.928);
+    align-self: center;
+
+}
+
+.publicFeed{
+    margin-top: 10%;
+    text-align: center;
+    background-color: #FFBA49;
+    width: 48vw;
+    border-radius: 5px;
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/99/74/pizza-pattern-vector-18669974.jpg');
+    align-self: center;
+}
+
+.postPublic > img { 
+    border-radius: 5px;
+    position: relative;
+    height: 30vh;
+    width: 20vw;
+    margin-top: 3%;
+}
+
+.postTitle{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFBA49;
+    width: 25vw;
+    border-radius: 5px;
+}
+
+.postPublic > p {
+    color: #FFBA49;
+    font-size: 1.1rem;
+    max-height: 60px;
+    overflow: auto;
+}
+
+
+.postPublic > .iconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.likeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.dislikeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.comment{
+font-size: 1.4rem;
+color: #FFBA49;
+}
+
+.commentForm{
+    margin-bottom: -5%;
+    margin-top: 0;
+    position: relative;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.commentForm > button{
+    width: 70px;
+    margin-bottom: 0;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+}
+.commentForm > button:hover{
+    background-color:#6096BA; 
+}
+.postPublic > .comment-expandBox{
+    display: flex;
+    gap: 3px;
+    margin-top: 24px;
+    align-self: center;
+}
+.commentSection{
+    color: #FFBA49;
+}
+
+.expandPublic{
+    color: #FFBA49;
+    font-size: 1.4rem;
+}
+}
+@media(min-width:1400px){
+    /* public css */
+.publicContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 4%;
+}
+
+.postPublic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 50vw;
+    height: 69vh;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    background-color: rgba(46, 45, 42, 0.928);
+    align-self: center;
+    margin-right: 2%;
+
+}
+
+.publicFeed{
+    margin-top: 6%;
+    text-align: center;
+    background-color: #FFBA49;
+    width: 44vw;
+    border-radius: 5px;
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/99/74/pizza-pattern-vector-18669974.jpg');
+    align-self: center;
+    margin-right: 2%;
+}
+
+.postPublic > img { 
+    border-radius: 5px;
+    position: relative;
+    height: 32vh;
+    width: 23vw;
+    margin-top: 3%;
+}
+
+.postTitle{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FFBA49;
+    width: 26vw;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.postPublic > p {
+    color: #FFBA49;
+    font-size: 1.1rem;
+    max-height: 60px;
+    overflow: auto;
+}
+
+
+.postPublic > .iconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    align-self: center;
+}
+
+.likeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.dislikeIcon{
+color: #FFBA49;
+font-size: 1.4rem;
+}
+
+.comment{
+font-size: 1.4rem;
+color: #FFBA49;
+}
+
+.commentForm{
+    margin-bottom: -5%;
+    margin-top: 0;
+    position: relative;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.commentForm > button{
+    width: 70px;
+    margin-bottom: 0;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+}
+.commentForm > button:hover{
+    background-color:#6096BA; 
+}
+
+.postPublic > .comment-expandBox{
+    display: flex;
+    gap: 3px;
+    margin-top: 24px;
+    align-self: center;
+}
+.commentSection{
+    color: #FFBA49;
+}
+
+.expandPublic{
+    color: #FFBA49;
+    font-size: 1.4rem;
+}
+}

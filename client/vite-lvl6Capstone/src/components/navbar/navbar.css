@@ -1,0 +1,80 @@
+@media(min-width:320px) and (max-width:420px){
+    /* mobile css  */
+    .navbar{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height: 55px;
+    }
+    
+    .link{
+        color:white;
+        padding: 5px;
+        margin-top: 10px;
+        font-size: 9vw;
+        margin-left: 17px;
+    
+    }
+    
+    .logout-icon{
+        color:white;
+        margin-top: 15px;
+        margin-left: 17px;
+        font-size: 9vw;
+    }
+    @media(min-width: 421px){
+        .navbar{
+            display: none;
+        }
+        .link{
+            display: none;
+        }
+        .logout-icon{
+            display: none;
+        }
+        
+    }
+    /* nonmobile css 
+    .mainNav{
+        display:flex;
+        background-color: aqua;
+        align-items: center;
+        
+    }
+    .Links{
+        padding: 2px;
+    }
+    .hamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+        top: 2%;
+    }
+
+    .closeIcon{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+        top: 2%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:10%;
+        width: 100%;
+        background-color: #f3f3f4e5;
+        list-style: none;
+    }
+
+    li{
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    } */
+}

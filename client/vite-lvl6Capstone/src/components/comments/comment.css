@@ -1,0 +1,225 @@
+@media(min-width:320px){
+    .commentsDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        width: 300px;
+        align-items: start;
+        overflow:scroll;
+        border-radius: 5px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.305);
+        color:#FFBA49 ;
+        }
+        
+        .expandedCommentsDiv{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            width: 80vw;
+            align-items: start;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.836);
+            color: #FFBA49;
+            position: absolute;
+            margin-top: 450px;
+            max-height: 270px;
+            overflow: auto;
+            z-index: 1;
+            align-self: center;
+        }
+        
+        .commentBox{
+        text-align: left;
+        font-size: 20px;
+        padding: 5px;
+            }
+        
+        .likeIconComment{
+        padding: 5px;
+        }
+        .dislikeIconComment{ 
+        padding: 5px;
+        }
+}
+@media(min-width:824px){
+    .commentsDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        width: 300px;
+        align-items: start;
+        overflow:scroll;
+        border-radius: 5px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.305);
+        color:#FFBA49 ;
+        }
+        
+        .expandedCommentsDiv{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            width: 55vw;
+            align-items: start;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.836);
+            color: #FFBA49;
+            position: absolute;
+            margin-top: 532px;
+            max-height: 270px;
+            overflow: auto;
+            z-index: 1;
+            align-self: center;
+        }
+        
+        .commentBox{
+        text-align: left;
+        font-size: 20px;
+        padding: 5px;
+            }
+        
+        .likeIconComment{
+        padding: 5px;
+        }
+        .dislikeIconComment{ 
+        padding: 5px;
+        }
+}
+@media(min-width:1155px){
+    .commentsDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        width: 300px;
+        align-items: start;
+        overflow:scroll;
+        border-radius: 5px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.305);
+        color:#FFBA49 ;
+        }
+        
+        .expandedCommentsDiv{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            width: 55vw;
+            align-items: start;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.836);
+            color: #FFBA49;
+            position: absolute;
+            margin-top: 480px;
+            max-height: 270px;
+            overflow: auto;
+            z-index: 1;
+            align-self: center;
+        }
+        
+        .commentBox{
+        text-align: left;
+        font-size: 20px;
+        padding: 5px;
+            }
+        
+        .likeIconComment{
+        padding: 5px;
+        }
+        .dislikeIconComment{ 
+        padding: 5px;
+        }
+}
+@media(min-width:1278px){
+    .commentsDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        width: 300px;
+        align-items: start;
+        overflow:scroll;
+        border-radius: 5px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.305);
+        color:#FFBA49 ;
+        }
+        
+        .expandedCommentsDiv{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            width: 55vw;
+            align-items: start;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.836);
+            color: #FFBA49;
+            position: absolute;
+            margin-top: 490px;
+            max-height: 270px;
+            overflow: auto;
+            z-index: 1;
+            align-self: center;
+        }
+        
+        .commentBox{
+        text-align: left;
+        font-size: 20px;
+        padding: 5px;
+            }
+        
+        .likeIconComment{
+        padding: 5px;
+        }
+        .dislikeIconComment{ 
+        padding: 5px;
+        }
+}
+@media(min-width:1400px){
+    .commentsDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        width: 300px;
+        align-items: start;
+        overflow:scroll;
+        border-radius: 5px;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.305);
+        color:#FFBA49 ;
+        }
+        
+        .expandedCommentsDiv{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            width: 50vw;
+            align-items: start;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.836);
+            color: #FFBA49;
+            position: absolute;
+            margin-top: 510px;
+            max-height: 270px;
+            overflow: auto;
+            z-index: 1;
+            align-self: center;
+        }
+        
+        .commentBox{
+        text-align: left;
+        font-size: 20px;
+        padding: 5px;
+            }
+        
+        .likeIconComment{
+        padding: 5px;
+        }
+        .dislikeIconComment{ 
+        padding: 5px;
+        }
+}

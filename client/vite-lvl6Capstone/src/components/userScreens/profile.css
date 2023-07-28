@@ -1,0 +1,432 @@
+@media(min-width:320px),(max-width:430px){
+    .profileContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: 90px;
+    }
+    .user{
+        color: #FFBA49;
+        grid-row: 1/2;
+        margin-top: 55px;
+    }
+    .welcome{
+        width: 35%;
+        color: #FFBA49;
+    }
+    
+    .fileButtons{
+        display: flex;
+        gap: 3px;
+        margin-left: 3%;
+    }
+    
+    .userPosts{
+        background-color:rgba(0, 0, 0, 0.305);
+        grid-row: 4/9;
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        grid-auto-rows: 123px;
+        overflow: scroll;
+        margin-top: 7%;
+    }
+    .profilePic{
+    height: 9vh;
+    width: 21vw;
+    border-radius: 100px;
+    margin-left: 6%;
+    margin-top: 2%;
+    }
+    
+    .postProfile > .iconBox {
+        display: none;
+    }
+    .postProfile > .comment-expandBox{
+        display: none;
+    }
+    
+    /* profile */
+    .postProfile > h1{
+    display: none;
+    }
+    .postProfile > p{
+    display: none;
+    }
+    .postProfile > span{
+        display: none;
+    }
+    .postProfile .comment{
+        display: none;
+    }
+    .postProfile{
+        width: 25vw;
+        background-color:rgba(0, 0, 0, 0.305);
+        height: 13vh;
+    }
+    
+    .postProfile > .commentSection, .commentsDiv, .delete, .expand{
+        display: none;
+    }
+    
+    .postImg{
+    height: 13vh;
+    width: 24vw;
+    margin-top: 1px;
+    }
+    
+    .custom-file-upload {
+    display: inline-block;
+    background-color:#FFBA49;
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 94px;
+    }
+    .custom-file-upload:hover{
+        background-color:#6096BA; 
+    }
+    .deletePic{
+        background-color: #FFBA49;
+        border: none;
+        border-radius: 2px;
+        padding: 2px;
+    }
+    .deletePic:hover{
+        background-color:#6096BA; 
+    }
+      /* Hide the file name text */
+    .custom-file-upload input[type="file"] {
+        display: none;
+    }
+    
+}
+@media(min-width:430px){
+    
+    .profileContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: 90px;
+    }
+    
+    .user{
+        color: #FFBA49;
+        grid-row: 1/2;
+        margin-top: 55px;
+    }
+    .myPosts{
+        color: #FFBA49;
+        grid-row: 3/4;
+        text-align: center;
+        position: relative;
+        top: 65px;
+    }
+    
+    .userPosts{
+        background-color:rgba(0, 0, 0, 0.305);
+        grid-row: 4/9;
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        grid-auto-rows: 123px;
+        overflow: scroll;
+        margin-top: 7%;
+    }
+    .profilePic{
+    height: 9vh;
+    width: 21vw;
+    border-radius: 100px;
+    margin-left: 6%;
+    margin-top: 2%;
+    }
+    
+    
+    /* profile */
+    .postProfile > h1{
+    display: none;
+    }
+    .postProfile > p{
+    display: none;
+    }
+    .postProfile > span{
+        display: none;
+    }
+    .postProfile .comment{
+        display: none;
+    }
+    .postProfile{
+        width: 25vw;
+        background-color:rgba(0, 0, 0, 0.305);
+        height: 13vh;
+    }
+    
+    .postProfile > .commentSection, .commentsDiv, .delete, .expand{
+        display: none;
+    }
+    
+    .postImg{
+    height: 13vh;
+    width: 24vw;
+    margin-top: 1px;
+    margin-right: 2%;
+    }
+    
+    .custom-file-upload {
+    display: inline-block;
+    background-color: #FFBA49;
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 94px;
+    }
+    .custom-file-upload:hover{
+        background-color:#6096BA; 
+    }
+    .deletePic{
+        background-color: #FFBA49;
+        border: none;
+        border-radius: 2px;
+        padding: 2px;
+    }
+    .deletePic:hover{
+        background-color:#6096BA; 
+    }
+      /* Hide the file name text */
+    .custom-file-upload input[type="file"] {
+        display: none;
+    }
+
+
+}
+@media(min-width:454px){
+    .profilePic {
+        height: 10vh;
+        width: 21vw;
+        border-radius: 100px;
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+}
+@media(min-width:530px){
+    .profileContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: 90px;
+    }
+    
+    .user{
+        color: #FFBA49;
+        grid-row: 1/2;
+        margin-top: 55px;
+    }
+    .myPosts{
+        color: #FFBA49;
+        grid-row: 3/4;
+        text-align: center;
+        position: relative;
+        top: 65px;
+    }
+    
+    .userPosts{
+        background-color:rgba(0, 0, 0, 0.305);
+        grid-row: 4/9;
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        grid-auto-rows: 108px;
+        overflow: scroll;
+        margin-top: 7%;
+    }
+    .profilePic {
+        height: 10vh;
+        width: 16vw;
+        border-radius: 100px;
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+    
+    
+    /* profile */
+    .postProfile > h1{
+    display: none;
+    }
+    .postProfile > p{
+    display: none;
+    }
+    .postProfile > span{
+        display: none;
+    }
+    .postProfile .comment{
+        display: none;
+    }
+    .postProfile{
+        width: 24.6vw;
+        background-color:rgba(0, 0, 0, 0.305);
+        height: 13vh;
+    }
+    
+    .postProfile > .commentSection, .commentsDiv, .delete, .expand{
+        display: none;
+    }
+    
+    .postImg{
+    height: 13vh;
+    width: 24.5vw;
+    margin-top: 1px;
+    margin-right: 2%;
+    }
+    
+    .custom-file-upload {
+        display: inline-block;
+        background-color: #FFBA49;
+        color: black;
+        cursor: pointer;
+        border-radius: 2px;
+        width: 94px;
+        text-align: center;
+    }
+    .custom-file-upload:hover{
+        background-color:#6096BA; 
+    }
+    .deletePic{
+        background-color: #FFBA49;
+        border: none;
+        border-radius: 2px;
+        padding: 2px;
+    }
+    .deletePic:hover{
+        background-color:#6096BA; 
+    }
+      /* Hide the file name text */
+    .custom-file-upload input[type="file"] {
+        display: none;
+    }
+
+
+}
+@media(min-width:660px){
+    .profilePic {
+        height: 11vh;
+        width: 14vw;
+        border-radius: 100px;
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+    .userPosts{
+    background-color: rgba(0, 0, 0, 0.305);
+    grid-row: 4/9;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: 142px;
+    overflow: scroll;
+    margin-left: 5%;
+    width: 90vw;
+    }
+    .postImg {
+        height: 17vh;
+        width: 21.5vw;
+        margin-top: 1px;
+        margin-right: 2%;
+    }
+    .postProfile {
+        width: 21.5vw;
+        background-color: rgba(0, 0, 0, 0.305);
+        height: 17vh;
+    }
+}
+@media(min-width:750px){
+    .profilePic{
+        height: 12vh;
+        width: 13vw;
+        border-radius: 100px;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .userPosts{
+    background-color: rgba(0, 0, 0, 0.305);
+    grid-row: 4/9;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: 175px;
+    overflow: scroll;
+    margin-left: 5%;
+    width: 90vw;
+    }
+    .postProfile {
+        width: 22vw;
+        background-color: rgba(0, 0, 0, 0.305);
+        height: 21vh;
+    }
+    .postImg {
+        height: 21vh;
+        width: 22vw;
+        margin-top: 1px;
+        margin-right: 2%;
+    }
+}
+@media(min-width:890px){
+    .userPosts{
+        background-color: rgba(0, 0, 0, 0.305);
+        grid-row: 4/9;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-auto-rows: 175px;
+        overflow: scroll;
+        margin-left: 5%;
+        width: 90vw;
+        }
+    .postProfile {
+        width: 22vw;
+        background-color: rgba(0, 0, 0, 0.305);
+        height: 21vh;
+    }
+    .postImg {
+        height: 21vh;
+        width: 22vw;
+        margin-top: 1px;
+        margin-right: 2%;
+    }
+    .profilePic {
+        height: 12vh;
+        width: 10vw;
+        border-radius: 100px;
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+}
+@media(min-width:1040px){
+    .postImg {
+        height: 28vh;
+        width: 21vw;
+        margin-top: 1px;
+        margin-right: 2%;
+    }
+    .userPosts {
+        background-color: rgba(0, 0, 0, 0.305);
+        grid-row: 4/9;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-auto-rows: 235px;
+        overflow: scroll;
+        margin-left: 7%;
+        width: 86vw;
+        overflow-x: hidden;
+    }
+    .postProfile {
+        width: 21vw;
+        background-color: rgba(0, 0, 0, 0.305);
+        height: 28vh;
+    }
+    .profilePic {
+        height: 12vh;
+        width: 10vw;
+        border-radius: 100px;
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+}
+@media(min-width:1100px){
+    .profilePic {
+        height: 12vh;
+        width: 7vw;
+        border-radius: 100px;
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+}

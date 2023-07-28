@@ -1,0 +1,659 @@
+@media(max-width:393px){
+    .addedContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+    
+    .pizzaImg{
+    border-radius: 5px;
+    margin-top: 50%;
+    }
+
+    .pizzaImg > img{
+        height: 30vh;
+        width: 70vw;
+        box-shadow: 0 0 8px rgb(229, 227, 227);
+    }
+
+    .goBackBtn{
+    margin-top: 15%;
+    padding: 15px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #FFBA49;
+    border-radius: 5px;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+    }
+    
+    .goBackBtn:hover{
+        background-color:#6096BA; 
+    }
+    
+    .spots{
+        position: absolute;
+        top: 200px;
+        left: 20%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+    
+    .sadFace{
+        position: absolute;
+        top: 5px;
+        margin-left: 2%;
+    }
+    
+    .addedItemBox{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        width: 70vw;
+        height: 56vh;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+        background-color: rgba(46, 45, 42, 0.928);
+    }
+    
+    .addedItemBox > button{
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        background-color: #FFBA49;
+        color: black;
+        transition: ease-in-out;
+        transition-duration: 150ms;
+    }
+
+    .addedItemBox > button:hover{
+        background-color:#6096BA;
+    }
+    
+    .addedItemImg{
+        border-radius: 5px;
+        height: 30vh;
+        width: 60vw
+    }
+    
+    .addedItemBox > h3{
+        margin-top: 7px;
+    color: #FFBA49;
+    margin-top: 15px
+    }
+    
+    .addedRest{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    
+    /* added details page  */
+    .addedDetailsContainer{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 7%;
+        margin-left: 5%;
+        justify-content: center;
+        gap: 15px;
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+        background-color: rgba(46, 45, 42, 0.928);
+        margin-bottom: 57%;
+    }
+    .addedName{
+        margin-top: 3%;
+        font-size: 1.8rem;
+        text-align: center;
+        background-color: #FFBA49;
+        width: 90vw;
+        border-radius: 5px;
+    }
+    .addedImg{
+        border-radius: 5px;
+        height: 30vh;
+        width: 59vw;
+        align-self: center;
+    }
+    .priceDetailsAdded{
+        margin-top: 5%;
+        font-size: 1.3rem;
+        color: #FFBA49;
+        text-align: center;
+    }
+    .typeFoodAdded{
+        font-size: 1.3rem;
+        color: #FFBA49;
+        font-weight: normal;
+        text-align: center;
+    }
+    .menuDetails{
+        font-size: 1.3rem;
+        text-align: center;
+        color: #FFBA49;
+        cursor: pointer;
+    }
+    .goBackBtnAdded{
+        margin-top: 7%;
+        padding: 15px;
+        width: 90px;
+        border-radius: 5px;
+        background-color: #FFBA49;
+        align-self: center;
+        transition: ease-in-out;
+        transition-duration: 150ms;
+        margin-bottom: 3%;
+    }
+    .goBackBtnAdded:hover{
+        background-color:#6096BA;
+    }
+}
+@media(min-width:394px){
+    .addedContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+    
+    .pizzaImg{
+    border-radius: 5px;
+    margin-top: 50%;
+    
+    }
+
+    .pizzaImg > img{
+        height: 30vh;
+        width: 70vw;
+        box-shadow: 0 0 8px rgb(250, 247, 247);
+    }
+
+    .goBackBtn{
+    margin-top: 14%;
+    padding: 15px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #FFBA49;
+    border-radius: 5px;
+    transition: ease-in-out;
+    transition-duration: 150ms;
+    }
+    
+    .goBackBtn:hover{
+        background-color:#6096BA; 
+    }
+    
+    .spots{
+        position: absolute;
+        top: 208px;
+        left: 26%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+    
+    .sadFace{
+        position: absolute;
+        top: 5px;
+        margin-left: 2%;
+    }
+    
+    .addedItemBox{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        width: 70vw;
+        height: 56vh;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+        background-color: rgba(46, 45, 42, 0.928);
+    }
+    
+    .addedItemBox > button{
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        background-color: #FFBA49;
+        color: black;
+        transition: ease-in-out;
+        transition-duration: 150ms;
+    }
+
+    .addedItemBox > button:hover{
+        background-color:#6096BA;
+    }
+    
+    .addedItemImg{
+        border-radius: 5px;
+        height: 30vh;
+        width: 60vw
+    }
+    
+    .addedItemBox > h3{
+        margin-top: 7px;
+    color: #FFBA49;
+    margin-top: 15px
+    }
+    
+    .addedRest{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    
+    /* added details page  */
+    .addedDetailsContainer{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 7%;
+        margin-left: 5%;
+        justify-content: center;
+        gap: 15px;
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+        background-color: rgba(46, 45, 42, 0.928);
+        margin-bottom: 57%;
+    }
+    .addedName{
+        margin-top: 3%;
+        font-size: 1.8rem;
+        text-align: center;
+        background-color: #FFBA49;
+        width: 90vw;
+        border-radius: 5px;
+    }
+    .addedImg{
+        border-radius: 5px;
+        height: 30vh;
+        width: 59vw;
+        align-self: center;
+    }
+    .priceDetailsAdded{
+        margin-top: 5%;
+        font-size: 1.3rem;
+        color: #FFBA49;
+        text-align: center;
+    }
+    .typeFoodAdded{
+        font-size: 1.3rem;
+        color: #FFBA49;
+        font-weight: normal;
+        text-align: center;
+    }
+    .menuDetails{
+        font-size: 1.3rem;
+        text-align: center;
+        color: #FFBA49;
+        cursor: pointer;
+    }
+    .goBackBtnAdded{
+        margin-top: 7%;
+        padding: 15px;
+        width: 90px;
+        border-radius: 5px;
+        background-color: #FFBA49;
+        margin-bottom: 3%;
+        transition: ease-in-out;
+        transition-duration: 150ms;
+        align-self: center;
+    }
+    .goBackBtnAdded:hover{
+        background-color:#6096BA;
+    }
+}
+@media(min-width: 415px){
+.spots{
+    position: absolute;
+    top: 30.5%;
+    left: 26%;
+    color: #521b06;
+    font-size: 1.7rem;
+}
+}
+@media(min-width:440px){
+    .spots{
+        position: absolute;
+        top: 30.5%;
+        left: 26%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+}
+@media(min-width:475px){
+    .spots{
+        position: absolute;
+        top: 32.5%;
+        left: 30%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+}
+@media(min-width:511px){
+    .spots{
+        position: absolute;
+        top: 34.3%;
+        left: 33%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+}
+@media(min-width:552px){
+    .spots{
+        position: absolute;
+        top: 40.8%;
+        left: 33%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+    .addedRest {
+        margin-top: 25%;
+        margin-top: 16%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+     /* added details page  */
+    .addedDetailsContainer{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 7%;
+        margin-left: 5%;
+        justify-content: center;
+        gap: 15px;
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+        background-color: rgba(46, 45, 42, 0.928);
+        margin-bottom: 57%;
+    }
+    .addedName{
+        margin-top: 3%;
+        font-size: 1.8rem;
+        text-align: center;
+        background-color: #FFBA49;
+        width: 90vw;
+        border-radius: 5px;
+    }
+    .addedImg{
+        border-radius: 5px;
+        height: 30vh;
+        width: 59vw;
+        align-self: center;
+    }
+    .priceDetailsAdded{
+        margin-top: 5%;
+        font-size: 1.3rem;
+        color: #FFBA49;
+        text-align: center;
+    }
+    .typeFoodAdded{
+        font-size: 1.3rem;
+        color: #FFBA49;
+        font-weight: normal;
+        text-align: center;
+    }
+    .menuDetails{
+        font-size: 1.3rem;
+        text-align: center;
+        color: #FFBA49;
+        cursor: pointer;
+    }
+    .goBackBtnAdded{
+        margin-top: 7%;
+        padding: 15px;
+        width: 90px;
+        border-radius: 5px;
+        background-color: #FFBA49;
+        margin-bottom: 3%;
+        transition: ease-in-out;
+        transition-duration: 150ms;
+        align-self: center;
+    }
+    .goBackBtnAdded:hover{
+        background-color:#6096BA;
+    }
+}
+@media(min-width:595px){
+    .pizzaImg{
+        border-radius: 5px;
+        margin-top: 28%;
+    }
+    .spots {
+        position: absolute;
+        top:28.8%;
+        left: 33%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+
+}
+@media(min-width:681px){
+    .pizzaImg > img {
+        height: 35vh;
+        width: 62vw;
+        box-shadow: 0 0 8px rgb(253, 251, 251);
+    }
+    .pizzaImg {
+        border-radius: 5px;
+        margin-top: 24%;
+    }
+    .spots {
+        position: absolute;
+        top: 29.2%;
+        left: 36%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+    .addedRest {
+        margin-top: 12%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media(min-width:802px){
+    .spots {
+        position: absolute;
+        top: 32.4%;
+        left: 39%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+    /* added details page  */
+    .addedDetailsContainer{
+        display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 7%;
+    margin-left: 20%;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 8px;
+    background-color: rgba(46, 45, 42, 0.93);
+    margin-bottom: 57%;
+    width: 57vw;
+    border-radius: 7px;
+    align-items: center;
+    align-self: center;
+    }
+    .addedName{
+    font-size: 1.7rem;
+    text-align: center;
+    background-color: #FFBA49;
+    width: 35vw;
+    border-radius: 5px;
+    margin-top: 3%;
+    align-self: center;
+    }
+    .addedImg{
+        border-radius: 5px;
+        height: 36vh;
+        width: 30vw;
+        align-self: center;
+    }
+    .priceDetailsAdded{
+        margin-top: 5%;
+        font-size: 1.2rem;
+        color: #FFBA49;
+        text-align: center;
+    }
+    .typeFoodAdded{
+        font-size: 1.2rem;
+        color: #FFBA49;
+        font-weight: normal;
+        text-align: center;
+    }
+    .menuDetails{
+        font-size: 1.2rem;
+        text-align: center;
+        color: #FFBA49;
+        cursor: pointer;
+    }
+    .goBackBtnAdded{
+        margin-top: 4%;
+    padding: 15px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #FFBA49;
+    margin-bottom: 3%;
+    align-self: center;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    transition: ease-in-out;
+    transition-duration: 150ms;
+    }
+    .goBackBtnAdded:hover{
+        background-color:#6096BA;
+    }
+}
+@media(min-width: 928px){
+    .spots {
+        position: absolute;
+        top: 36%;
+        left: 39%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+}
+@media(min-width: 1028px){
+    .spots {
+        position: absolute;
+        top: 28%;
+        left: 41%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+    .pizzaImg > img {
+        height: 35vh;
+        width: 50vw;
+        box-shadow: 0 0 8px rgb(253, 251, 251);
+    }
+    .pizzaImg {
+        border-radius: 5px;
+        margin-top: 15%;
+    }
+    .addedItemBox {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        width: 67vw;
+        height: 56vh;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+        background-color: rgba(46, 45, 42, 0.928);
+    }
+    .addedItemImg {
+        border-radius: 5px;
+        height: 30vh;
+        width: 50vw;
+    }
+    .addedRest {
+        margin-top: 9%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media(min-width:1278px){
+    .spots {
+        position: absolute;
+        top: 32.4%;
+        left: 43%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+    .addedItemBox {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        width: 60vw;
+        height: 56vh;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+        background-color: rgba(46, 45, 42, 0.928);
+    }
+    .addedItemImg {
+        border-radius: 5px;
+        height: 33vh;
+        width: 40vw;
+    }
+    .addedRest {
+        margin-top: 6%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media(min-width:1451px){
+    .spots {
+        position: absolute;
+        top: 32%;
+        left: 43%;
+        color: #521b06;
+        font-size: 1.7rem;
+    }
+    .pizzaImg > img {
+        height: 35vh;
+        width: 40vw;
+        box-shadow: 0 0 8px rgb(253, 251, 251);
+    }
+    .pizzaImg {
+        border-radius: 5px;
+        margin-top: 13%;
+    }
+    .addedItemBox {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        width: 50vw;
+        height: 56vh;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgb(0, 0, 0);
+        background-color: rgba(46, 45, 42, 0.928);
+    }
+    .addedItemImg {
+        border-radius: 5px;
+        height: 34vh;
+        width: 26vw;
+    }
+    .addedRest {
+        margin-top: 6%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}

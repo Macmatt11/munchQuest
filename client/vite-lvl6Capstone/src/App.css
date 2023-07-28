@@ -1,0 +1,223 @@
+@media(min-width:320px) and (max-width:420px){
+    .main-title{
+        text-align: center;
+        background-color: black;
+        color: white;
+        height: 50px;
+        line-height: 1.5;
+        position: fixed;
+        width: 100vw;
+        font-family: cursive;
+        top: 0;
+        z-index: 9999
+    }
+    .mainNav{
+        display: none;
+    }
+}
+@media(min-width:421px){
+    .navbar{
+        display: none;
+    }
+    .main-title{
+        display: none;
+    }
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 19%;
+        height: 50px;
+        }
+    .hamburger{
+        margin-right: 2%;
+        margin-top: 1%;
+        color: white;
+    }
+    .navTitle{
+        line-height: 1;
+        font-family: cursive;
+        font-size: 2rem;
+        margin-top: 1%;
+        color: white;
+    }
+    .link2{
+            padding: 2px;
+            text-decoration: none;
+            color: white;
+            font-family: cursive;
+            font-weight: 200;
+        }
+        .link2:hover{
+            color: #FFBA49;
+        }
+    .closeIcon{
+        cursor: pointer;
+        margin-right: 2%;
+        margin-top: 1%;
+    }
+    .ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 5.9%;
+        width: 21%;
+        background-color: rgba(0, 0, 0, 0.88);
+        list-style: none;
+        z-index: 1;
+        align-items: flex-end;
+    }
+    .ul > li{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        align-self: center;
+        text-align: center;
+    }
+
+}
+@media(min-width:475px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 21%;
+        height: 50px;
+        }
+}
+@media(min-width:530px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 23%;
+        height: 50px;
+        }
+}
+@media(min-width:604px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 27%;
+        height: 50px;
+        }
+}
+@media(min-width:698px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 29%;
+        height: 50px;
+        }
+}
+@media(min-width:782px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 32%;
+        height: 50px;
+        }
+}
+@media(min-width:870px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 34%;
+        height: 50px;
+        }
+}
+@media(min-width:984px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 36%;
+        height: 50px;
+        }
+}
+@media(min-width:1124px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 38%;
+        height: 50px;
+        }
+        .hamburger{
+            margin-right: 2%;
+            margin-top: 0.5%;
+            color: white;
+            cursor: pointer;
+        }
+        .navTitle{
+            line-height: 1;
+            font-family: cursive;
+            font-size: 2rem;
+            margin-top: .5%;
+            color: white;
+        }
+        .closeIcon{
+            cursor: pointer;
+            margin-right: 2%;
+            margin-top: .5%;
+        }
+}
+@media(min-width:1356px){
+    .mainNav{
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        gap: 39%;
+        height: 50px;
+        }
+        .hamburger{
+            margin-right: 2%;
+            margin-top: 0.4%;
+            color: white;
+            cursor: pointer;
+        }
+        .navTitle{
+            line-height: 1;
+            font-family: cursive;
+            font-size: 2rem;
+            margin-top: .5%;
+            color: white;
+        }
+        .link2{
+            padding: 2px;
+            text-decoration: none;
+            color: white;
+            font-family: cursive;
+            font-weight: 200;
+        }
+        .link2:hover{
+            color: #FFBA49;
+        }
+        .closeIcon{
+            cursor: pointer;
+            margin-right: 2%;
+            margin-top: .4%;
+        }
+        .ul{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 5.9%;
+            width: 21%;
+            background-color: rgba(0, 0, 0, 0.88);
+            list-style: none;
+            z-index: 1;
+            align-items: flex-end;
+        }
+        .ul > li{
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            align-self: center;
+            text-align: center;
+        }
+}
