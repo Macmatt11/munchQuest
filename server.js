@@ -10,7 +10,7 @@ const path = require("path")//... other imports
 app.use(express.json())//converts json to js object 
 app.use(morgan('dev'))
 // ... other app.use middleware
-app.use(express.static(path.join(__dirname, "client", "build")))
+app.use(express.static(path.join(__dirname, "client", "dist")))
 
 
 // //mongoDB
@@ -33,7 +33,7 @@ app.use((err,req,res,next)=>{
 
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+    res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
 })
 
 //express listen
