@@ -20,4 +20,4 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
-/client/vite-lvl6Capstone/env
+/client/env
