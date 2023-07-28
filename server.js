@@ -3,11 +3,14 @@ const app = express()
 require('dotenv').config()
 const morgan = require('morgan')
 const mongoose = require('mongoose')
+const path = require("path")//... other imports
 
 
 //middleware
 app.use(express.json())//converts json to js object 
 app.use(morgan('dev'))
+// ... other app.use middleware
+app.use(express.static(path.join(__dirname, "client", "build")))
 
 
 // //mongoDB
@@ -28,6 +31,10 @@ app.use((err,req,res,next)=>{
     return res.send({errMsg: err.message})
 })
 
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+})
 
 //express listen
 app.listen(8500,()=>{
