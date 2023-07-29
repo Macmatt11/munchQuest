@@ -4,11 +4,10 @@
         flex-direction: column;
         justify-content:center;
         align-items: center;
+        height: 100vh;
     }
 
     .member {
-        position: absolute;
-        top: 45%;
         text-align: center;
         color: #ffba49;
         align-self: center;
@@ -16,8 +15,6 @@
     }
 
     .member1 {
-        position: absolute;
-        top: 45%;
         align-self: center;
         text-align: center;
         color: #ffba49;
@@ -51,8 +48,6 @@
         display: none;
     }
     .authForm {
-        position: absolute;
-        top: 22%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -72,8 +67,6 @@
         font-family: cursive;
     }
     .authForm {
-        position: absolute;
-        top: 18%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -85,8 +78,6 @@
 }
 @media(min-width:555px){
     .member {
-        position: absolute;
-        top: 48%;
         text-align: center;
         color: #ffba49;
         align-self: center;
@@ -94,8 +85,6 @@
     }
 
     .member1 {
-        position: absolute;
-        top: 48%;
         align-self: center;
         text-align: center;
         color: #ffba49;
@@ -110,8 +99,6 @@
     border: none;
     }
     .authForm {
-        position: absolute;
-        top: 16%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -120,8 +107,6 @@
         align-self: center;
 }
 .member {
-    position: absolute;
-    top: 49%;
     text-align: center;
     color: #ffba49;
     align-self: center;
@@ -129,8 +114,6 @@
 }
 
 .member1 {
-    position: absolute;
-    top: 49%;
     align-self: center;
     text-align: center;
     color: #ffba49;
@@ -150,8 +133,6 @@
         border: none;
         }
         .authForm {
-            position: absolute;
-            top: 14%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -176,8 +157,6 @@
         margin-top: 12%;
     }
     .member {
-        position: absolute;
-        top: 49%;
         text-align: center;
         color: #ffba49;
         align-self: center;
@@ -185,8 +164,6 @@
     }
 
     .member1 {
-        position: absolute;
-        top: 49%;
         align-self: center;
         text-align: center;
         color: #ffba49;
